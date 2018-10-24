@@ -9,3 +9,10 @@
 - [Google Colab](): Edit > Notebook settings: 
   - Runtime type: `Python 3` 
   - Hardware accelerator: `GPU`
+
+- Python3
+
+```
+  !pip install --upgrade -q gspread
+  !pip install --upgrade -q xlrd
+```
