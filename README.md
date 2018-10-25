@@ -1,18 +1,25 @@
-## Disease Diagnostic from Symptoms
+# Disease Diagnostic from Symptoms
 
-### 
+## 1. Environment
 
-### Requirements
+- [x] Google
+  - [x] [Google Colaboratory](colab.research.google.com)
+  - [x] Google Drive: upload [](https://github.com/vbosstech/disease-diagnostic-from-symptoms/archive/master.zip) onto `My Drive/machine-learning`
+  - `Google Drive`: `My Drive/machine-learning/disease-diagnostic-from-symptoms/disease_symptoms_data_analysis_DecisionTree.ipynb` > *Open with* > *Colaboratory* 
 
-- Scraped dataset [disease_symptom_database.xlsx](http://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html)
+- [x] Google Colaboratory
+  - [x] [Google Colab](colab.research.google.com): Edit > Notebook settings: 
+    - [x] Runtime type: `Python 3` 
+    - [x] Hardware accelerator: `GPU`
+  - Mounted at /content/gdrive
+    ```
+      drive.mount('/content/gdrive')  
+    ```
+  - Python Module/Package
+    ```
+      !pip install --upgrade -q gspread
+      !pip3 install --upgrade -q xlrd
+    ```
 
-- [Google Colab](): Edit > Notebook settings: 
-  - Runtime type: `Python 3` 
-  - Hardware accelerator: `GPU`
-
-- Python3
-
-```
-  !pip install --upgrade -q gspread
-  !pip install --upgrade -q xlrd
-```
+## Reference
+- [Disease Symptom Knowledge Database.xlsx](http://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html)
