@@ -116,7 +116,7 @@ function getSymbols(indices)
 async function loadDict()
 {
   await $.ajax({
-  url: 'model2/class_names.txt',
+  url: 'model/class_names.txt',
   dataType: 'text',}).done(success);
 }
 	  
@@ -174,7 +174,7 @@ return tf.tidy(()=>{
 //load the model 
 async function loadModel()
 {
-    model = await tf.loadModel('model2/model.json')
+    model = await tf.loadModel('model/model.json')
     //warm up 
     model.predict(tf.zeros([1,28,28,1]))
     allowDrawing()
