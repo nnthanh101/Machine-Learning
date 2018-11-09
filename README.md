@@ -129,8 +129,6 @@ Machine Learning by Examples using Scikit-Learn, Keras, TensorFlow, PyTorch, and
 
     ```
 
-### 1.2.3. [Tensorboard](https://github.com/mixuala/colab_utils)
-
 ## 2. Sketcher using Keras/TensorFlow and QuickDraw-Dataset
 A simple tool that recognizes drawings and outputs the names of the current drawing. We will use Google Colab for training the model, and we will deploy & run directly on the browser using TensorFlow.js.
 
