@@ -43,6 +43,7 @@
 				"ms-toolsai.jupyter-renderers",
 				"AmazonWebServices.aws-toolkit-vscode",
 				// "ms-python.vscode-pylance",
+				// "ms-kubernetes-tools.vscode-kubernetes-tools"
 			],
 			"settings": {
 				"[python]": {
