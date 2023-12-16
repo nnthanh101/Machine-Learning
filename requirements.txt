@@ -1,0 +1,35 @@
+# awscli
+boto3
+ipykernel
+ipywidgets
+# ipython
+# jupyter
+matplotlib
+numpy
+openai
+openpyxl
+pandas
+plotly
+# pip
+python-dotenv
+scikit-learn
+scipy
+seaborn
+statsmodels
+tensorflow
+torch
+
+mlflow
+jupyter_ai
+diagrams
+pyspark
+
+black
+flake8
+loguru
+# mkdocs
+# isort
+# setuptools
+# typer
+# wheel
+# -e .
