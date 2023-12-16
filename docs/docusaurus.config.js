@@ -74,9 +74,9 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'dataAnalyticsSidebar',
+            sidebarId: 'dataScienceSidebar',
             position: 'left',
-            label: 'Data Analytics',
+            label: 'Data Science',
           },
           {
             type: 'docSidebar',

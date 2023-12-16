@@ -2,7 +2,9 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# Python & SQL for Data Science
+
+* [ ] https://datasciencedojo.com/python-for-data-science/
 
 Documents are **groups of pages** connected through:
 
