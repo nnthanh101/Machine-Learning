@@ -47,46 +47,46 @@
 
 ```
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
+├── README.md          🤝 Explain your project and its structure for better collaboration.
+├── data               🔍 Where all your raw and processed data files are stored.
+│   ├── external       <- Data from third-party sources.
 │   ├── interim        <- Intermediate data that has been transformed.
 │   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
+│   └── raw            <- The original, unprocessed, immutable data dump.
 │
-├── docs               <- A default mkdocs project; see mkdocs.org for details
+├── docs               📓 A default mkdocs project; see mkdocs.org for details
 │
-├── models             <- Trained and serialized models, model predictions, or model summaries
+├── models             🧠 Store your trained and serialized models for easy access and versioning.
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+├── notebooks          💻 Jupyter notebooks or other interactive files for exploration and visualization.
+│                         Naming convention is a number (for ordering), the creator's initials, and a short `-` delimited description, e.g.
+│                         `1.0-analytics-initial-data-exploration`.
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for analytics
 │                         and configuration for tools like black
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+├── reports            📊 Generated analysis (reports, charts, and plots) as HTML, PDF, LaTeX.
 │   └── figures        <- Generated graphics and figures to be used in reporting
 │
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
+├── requirements.txt   🛠 The requirements file for reproducing the analysis environment, for easy environment setup.
 │
 ├── setup.cfg          <- Configuration file for flake8
 │
-└── analytics          <- Source code for use in this project.
+├── src                💾 Source code for data processing, feature engineering, and model training.
+│
+└── analytics          🧩 Source code for use in this project.
     │
     ├── __init__.py    <- Makes analytics a Python module
     │
-    ├── data           <- Scripts to download or generate data
+    ├── data           <- Scripts to download, preprocess, or generate data
     │   └── make_dataset.py
     │
     ├── features       <- Scripts to turn raw data into features for modeling
     │   └── build_features.py
     │
-    ├── models         <- Scripts to train models and then use trained models to make
-    │   │                 predictions
+    ├── models         <- Scripts to train models and then use trained models to make predictions.           
     │   ├── predict_model.py
     │   └── train_model.py
     │

@@ -27,7 +27,7 @@ pyspark
 black
 flake8
 loguru
-mkdocs
+# mkdocs
 # isort
 # setuptools
 # typer
