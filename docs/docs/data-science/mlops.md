@@ -41,4 +41,16 @@ sidebar_position: 8
 * ➡ [The Full Stack 7-Steps MLOps Framework by Paul Iusztin](https://www.pauliusztin.me/courses/the-full-stack-7-steps-mlops-framework)
 * ➡ [MLOps | Machine Learning Operations Specialization on Coursera by Noah Gift and Alfredo Deza](https://www.coursera.org/specializations/mlops-machine-learning-duke#courses)
 
+* [ ] https://aws.amazon.com/blogs/machine-learning/build-an-end-to-end-mlops-pipeline-using-amazon-sagemaker-pipelines-github-and-github-actions/
+
+* [ ] https://github.com/mlabonne/llm-course
+
+* [ ] https://datasciencedojo.com/blog/data-science-roadmap/
+
+* [ ] https://github.com/abi/screenshot-to-code
+
+* [ ] https://www.deeplearning.ai/short-courses/
+
+* [ ] https://github.com/data-science-on-aws/data-science-on-aws
+
 #machinelearning #datascience
