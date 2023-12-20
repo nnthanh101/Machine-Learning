@@ -4,8 +4,8 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Data Science',
+    Svg: require('@site/static/img/data-science/data-science-roadmap.svg').default,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and

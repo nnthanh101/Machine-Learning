@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Data Analytics & Machine Learning ⏱️
+            Data Science & Machine Learning ⏱️
           </Link>
         </div>
       </div>
