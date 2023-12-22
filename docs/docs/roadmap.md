@@ -69,17 +69,40 @@ sidebar_position: 1
 
 > 🤯 Discover the cutting-edge realm of Generative AI, including a special guide to ChatGPT! 💬
 
-* [7.1. ChatGPT Prompting Guide](https://github.com/nnthanh101/Machine-Learning/blob/main/references/8.1.ChatGPT-Prompting-Guide.pdf)
+* [7.1. ChatGPT Prompting Guide](https://github.com/nnthanh101/Machine-Learning/blob/main/references/7.1.ChatGPT-Prompting-Guide.pdf)
 * [ChatGPT](https://quickref.me/chatgpt.html)
 
-##  8️⃣ MLOps & LLM Ops
+##  8️⃣ MLOps | LLM Ops
 
 > 🛠️ Learn the best practices for operationalizing ML models and large language models. 🔄
 
 [MLOps & LLM Ops](data-science/mlops.md)
 
-## 9️⃣ Must-Read-Papers-for-ML.md
+## 9️⃣ Papers for ML & Data Science study guides
 
 > 📜 Dive into seminal papers that every ML enthusiast should read. 🔍
+
+[Must-Read-Papers-for-ML](./README.must-read-papers-for-ml.md)
+
+> 
+
+### Study guides
+|<a href="https://github.com/nnthanh101/Machine-Learning/blob/main/references/study-guide/study-guide-data-retrieval-with-sql.pdf"><img src="https://www.mit.edu/~amidi/teaching/data-science-tools/illustrations/cover/en-001.png" alt="Illustration" width="220px"/></a>|<a href="https://github.com/nnthanh101/Machine-Learning/blob/main/references/study-guide/study-guide-data-manipulation-with-r.pdf"><img src="https://www.mit.edu/~amidi/teaching/data-science-tools/illustrations/cover/en-002.png" alt="Illustration" width="220px"/></a>|<a href="https://github.com/nnthanh101/Machine-Learning/blob/main/references/study-guide/study-guide-data-manipulation-with-python.pdf"><img src="https://www.mit.edu/~amidi/teaching/data-science-tools/illustrations/cover/en-003.png" alt="Illustration" width="220px"/></a>|
+|:--:|:--:|:--:|
+|Data retrieval with SQL|Data manipulation with R|Data manipulation with Python|
+
+|<a href="https://github.com/nnthanh101/Machine-Learning/blob/main/references/study-guide/study-guide-data-visualization-with-r.pdf"><img src="https://www.mit.edu/~amidi/teaching/data-science-tools/illustrations/cover/en-004.png" alt="Illustration" width="220px"/></a>|<a href="https://github.com/nnthanh101/Machine-Learning/blob/main/references/study-guide/study-guide-data-visualization-with-python.pdf"><img src="https://www.mit.edu/~amidi/teaching/data-science-tools/illustrations/cover/en-005.png" alt="Illustration" width="220px"/></a>|<a href="https://github.com/nnthanh101/Machine-Learning/blob/main/references/study-guide/study-guide-engineering-productivity-tips.pdf"><img src="https://www.mit.edu/~amidi/teaching/data-science-tools/illustrations/cover/en-006.png" alt="Illustration" width="220px"/></a>|
+|:--:|:--:|:--:|
+|Visualization with R|Visualization with Python|Engineering tips|
+
+### Conversion guides between R and Python
+|<a href="https://github.com/nnthanh101/Machine-Learning/blob/main/references/study-guide/conversion-guide-r-python-data-manipulation.pdf"><img src="https://www.mit.edu/~amidi/teaching/data-science-tools/illustrations/cover/en-007.png" alt="Illustration" width="220px"/></a>|<a href="https://github.com/nnthanh101/Machine-Learning/blob/main/references/study-guide/conversion-guide-r-python-data-visualization.pdf"><img src="https://www.mit.edu/~amidi/teaching/data-science-tools/illustrations/cover/en-008.png" alt="Illustration" width="220px"/></a>|
+|:--:|:--:|
+|Data manipulation|Visualization|
+
+### Super study guide
+|<a href="https://github.com/nnthanh101/Machine-Learning/blob/main/references/study-guide/super-study-guide-data-science-tools.pdf"><img src="https://www.mit.edu/~amidi/teaching/data-science-tools/illustrations/cover/en-009.png" alt="Illustration" width="400px"/></a>|
+|:--:|
+|All the above gathered in one place|
 
 🧭 This ROADMAP is not just a learning path; it's my compass that provides links to cheat sheets, tutorials, and references that have been meticulously selected to contribute to my personal learning journey. 🎓
