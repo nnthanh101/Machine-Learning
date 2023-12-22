@@ -6,6 +6,8 @@ sidebar_position: 1
 
 > 🚀 Data Science & Machine Learning ROADMAP for aspiring Data Scientists and ML Enthusiasts! 🌟
 
+![Data Science & Machine Learning ROADMAP](./data-science/Data-Science-Machine-Learning-ROADMAP.gif)
+
 ## 1️⃣ Mathematics & Statistics
 
 > ✨ From descriptive statistics to calculus, these resources will provide a solid foundation in the core principles that drive data science. 🔢
