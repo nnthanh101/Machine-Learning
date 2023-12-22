@@ -45,7 +45,7 @@ sidebar_position: 1
 
 > 🤖 Discover the fascinating world of Machine Learning with comprehensive guides and resources. 🧑‍🎓
 
-* [5.1. Machine Learning](https://github.com/nnthanh101/Machine-Learning/blob/main/references/5.1.Machine-Learning.pdf)
+* [5.1. Machine Learning](https://github.com/nnthanh101/Machine-Learning/blob/main/references/cheat-sheets/5.1.Machine-Learning.pdf)
 
 * [Best-of Machine Learning with Python](https://github.com/ml-tooling/best-of-ml-python)
 * [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
@@ -55,9 +55,9 @@ sidebar_position: 1
 
 > 🌌 Learn to dive deep into Deep Learning with TensorFlow, Keras, and more! 🧠
 
-* [6.1. TensorFlow](https://github.com/nnthanh101/Machine-Learning/blob/main/references/6.1.TensorFlow.pdf)
-* [6.2. Keras](https://github.com/nnthanh101/Machine-Learning/blob/main/references/6.2.Keras.pdf)
-* [6.3. Torch](https://github.com/nnthanh101/Machine-Learning/blob/main/references/Torch.pdf) | [PyTorch](https://www.learnpytorch.io/pytorch_cheatsheet/)
+* [6.1. TensorFlow](https://github.com/nnthanh101/Machine-Learning/blob/main/references/cheat-sheets/6.1.TensorFlow.pdf)
+* [6.2. Keras](https://github.com/nnthanh101/Machine-Learning/blob/main/references/cheat-sheets/6.2.Keras.pdf)
+* [6.3. Torch](https://github.com/nnthanh101/Machine-Learning/blob/main/references/cheat-sheets/6.3.Torch.pdf) | [PyTorch](https://www.learnpytorch.io/pytorch_cheatsheet/)
 
 
 * [Practical Deep Learning for Coders](https://course.fast.ai/)
