@@ -69,7 +69,7 @@ sidebar_position: 1
 
 > 🤯 Discover the cutting-edge realm of Generative AI, including a special guide to ChatGPT! 💬
 
-* [7.1. ChatGPT Prompting Guide](https://github.com/nnthanh101/Machine-Learning/blob/main/references/7.1.ChatGPT-Prompting-Guide.pdf)
+* [7.1. ChatGPT Prompting Guide](https://github.com/nnthanh101/Machine-Learning/blob/main/references/cheat-sheets/7.1.ChatGPT-Prompting-Guide.pdf)
 * [ChatGPT](https://quickref.me/chatgpt.html)
 
 ##  8️⃣ MLOps | LLM Ops
