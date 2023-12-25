@@ -27,37 +27,132 @@ To get started, simply use the prompts below as input for ChatGPT. Replace every
 11. [Misc](#misc)
 
 ---
+
 # WRITE PYTHON
 
 ## 1. Train Classification Model
+
 > Prompt: I want you to act as a data scientist and code for me. I have a dataset of `[describe dataset]`. Please build a machine learning model that predicts `[target variable]`. 
 
+> I want you to act as a data scientist and train a classification model to predict `[target variable]` based on `[features]` dataset.
+
+> I want you to act as a machine learning engineer and build a classification model that can classify `[label]` based on `[features]` features.
+
+> I want you to act as a deep learning specialist and train a convolutional neural network to classify `[object]` using `[image format]` images.
+
 ## 2. Automatic Machine Learning
+
 > Prompt: I want you to act as an automatic machine learning (AutoML) bot using TPOT for me. I am working on a model that predicts `[...]`. Please write Python code to find the best classification model with the highest AUC score on the test set.
 
+> I want you to act as an AutoML system and generate Python code to build a machine learning pipeline that optimizes `[metric]` on `[dataset]`.
+
+> I want you to act as an ML engineer and create an AutoML script that tunes `[hyperparameters]` to achieve the best performance on `[dataset]`.
+
+> I want you to act as a data scientist and use Auto-sklearn to automatically build a classification model that predicts [target variable] based on `[features]` features.
+
 ## 3. Tune Hyperparameter
+
 > Prompt: I want you to act as a data scientist and code for me. I have trained a `[model name]`. Please write the code to tune the hyperparameters.
 
-## 4. Explore Data
+> I want you to act as a hyperparameter tuner and optimize the `[hyperparameter]` of a `[algorithm]` algorithm to achieve the highest `[metric]` on `[dataset]`.
+
+> I want you to act as a machine learning expert and use Optuna to perform a Bayesian optimization of `[hyperparameters]` for a `[model]` on `[dataset]`.
+
+> I want you to act as a data scientist and perform a random search of `[hyperparameters]` for a `[algorithm]` algorithm to achieve the best `[metric]` on `[dataset]`.
+
+## 4. Explore Data: Data Visualization and Exploration
+
 > Prompt: I want you to act as a data scientist and code for me. I have a dataset of `[describe dataset]`. Please write code for data visualisation and exploration.
+
+> I want you to act as a data analyst and generate a visualization that shows the distribution of `[feature]` in `[dataset]`.
+
+> I want you to act as a data scientist and generate summary statistics of `[feature]` in `[dataset]`.
+
+> I want you to act as a data explorer and clean `[dataset]` by removing missing values, duplicates, and outliers.
+
+> I want you to act as a data scientist, identifies patterns and trends in data using Pandas and Seaborn
+
+**Dimensionality Reduction**
+
+> I want you to act as a data scientist and reduce the `[dimensionality]` of the `[image data]` in `[dataset]` using `[principal component analysis]` technique.
+
+> I want you to act as a data scientist and provide a step-by-step guide on how to perform `[t-SNE]` for my dataset.
+
+> I want you to act as a data scientist and explain the difference between `[PCA]` and `[LDA]` and how they can be used for `[dimensionality reduction]` in my dataset.
 
 ## 5. Generate Data
 > Prompt: I want you to act as a fake data generator. I need a dataset that has x rows and y columns: `[insert column names]`
 
-## 6. Write Regex
-> Prompt: I want you to act as a coder. Please write me a regex in Python that `[describe regex]`
+> I want you to act as a data generator and create a synthetic dataset with `[number of features]` features and `[number of instances]` instances.
 
-## 7. Train Time Series
+> I want you to act as a data scientist and generate a time series dataset with `[seasonality]` seasonality and `[trend]` trend.
+
+> I want you to act as a data simulation expert and generate a dataset that simulates `[process]` with `[parameters]` parameters.
+
+## 6. Write a Regex in Python
+> Prompt: I want you to act as a coder. Please write me a regex in Python that `[describe regex]`
+> I want you to act as a regex writer and write a regular expression that matches `[pattern]` in `[text]`.
+
+> I want you to act as a data engineer and use regex to extract `[data]` from `[log file]`.
+
+> I want you to act as a web scraper and write a regex that matches `[pattern]` in `[HTML source]`.
+
+# Time Series
+
+## 7.1. Train Time Series
+
 > Prompt: I want you to act as a data scientist and code for me. I have a time series dataset `[describe dataset]`. Please build a machine learning model that predicts `[target variable]`. Please use `[time range]` as train and `[time range]` as validation.
+
+> I want you to act as a time series expert and build a recurrent neural network that predicts [target variable] based on `[time series data]`.
+
+> I want you to act as a data scientist and train a seasonal ARIMA model to forecast [variable] in [time series data] using [forecast horizon] forecast periods.
+
+> I want you to act as a machine learning engineer and train a long short-term memory network that detects [event] in [sensor data].
+
+## 7.2. Time Series Decomposition:
+
+> Prompt: I want you to act as a data scientist and code for me. I have a time series dataset of `[describe dataset]`. Please perform a time series decomposition and plot the components.
+
+## 7.3. Time Series Forecasting with ARIMA
+
+> Prompt: I want you to act as a data scientist and code for me. I have a time series dataset of `[describe dataset]`. Please help me build an ARIMA model to forecast the data.
+
+> I want you to act as a data scientist and forecast the `[sales]` of `[product]` for the next `[n months]` using `[time series forecasting]` techniques.
+
+> I want you to act as a machine learning expert and develop a `[neural network model]` that predicts the `[stock prices]` of `[company]` based on `[historical data]`.
+
+> I want you to act as a time series analyst and analyze the `[trends and patterns]` in the `[weather data]` of `[city]` using `[time series decomposition]` techniques.
 
 ## 8. Address Imbalance Data
 > Prompt: I want you to act as a coder. I have trained a machine learning model on an imbalanced dataset. The predictor variable is the column `[Insert column name]`. In Python, how do I oversample and/or undersample my data?
 
+> I want you to act as a data scientist and use SMOTE to oversample the minority class of `[imbalanced dataset]` for classification task.
+
+> I want you to act as a machine learning expert and use stratified sampling to balance the distribution of [target variable] in `[dataset]`.
+
+> I want you to act as a data engineer and apply random undersampling to address the class imbalance in `[imbalanced dataset]` for training a model.
+
 ## 9. Get Feature Importance
 > Prompt: I want you to act as a data scientist and explain the model's results. I have trained a decision tree model and I would like to find the most important features. Please write the code. 
 
-## 10. Visualize Data with Matplotlib
-> Prompt: I want you to act as a coder in Python. I have a dataset `[name]` with columns `[name]`. `[Describe graph requirements]`
+> I want you to act as a data scientist and use `[feature selection algorithm]` to calculate the feature importance of `[dataset]` for `[target variable]`.
+
+> I want you to act as a machine learning expert and train a `[model]` on `[dataset]` to identify the top `[number]` most important features for [target variable].
+
+> I want you to act as a data analyst and use the permutation feature importance technique to assess the importance of `[features]` for predicting `[target variable]` in `[dataset]`.
+
+## 10. Visualize Data
+> Prompt: I want you to act as a coder in Python. I have a dataset `[name]` with columns `[name]`. Visualize Data with Matplotlib `[Describe graph requirements]`
+
+> I want you to act as a coder in python. I have a dataset `[name]` with columns `[name]`. `[Describe graph requirements]`
+
+> I want you to act as a data visualization expert and create a [type of plot] that shows the relationship between [variable1] and [variable2] in [dataset].
+
+> I want you to act as a data scientist and create a [type of plot] that displays the distribution of [variable] in [dataset] and compare it across different [categorical variable].
+
+> I want you to act as a data analyst and create a [type of plot] that shows the trend of [variable] over time in [dataset].
+
+> I want you to act as a coder. I have a folder of images. [Describe how files are organised in directory] [Describe how you want images to be printed]
 
 ## 11. Visualize Image Grid Matplotlib
 > Prompt: I want you to act as a coder. I have a folder of images. `[Describe how files are organised in directory]` `[Describe how you want images to be printed]`
@@ -65,29 +160,75 @@ To get started, simply use the prompts below as input for ChatGPT. Replace every
 ## 12. Explain Model with Lime
 > Prompt: I want you to act as a data scientist and explain the model's results. I have trained a `[library name]` model and I would like to explain the output using LIME. Please write the code. 
 
+> I want you to act as a machine learning specialist and use Lime to explain how a `[model]` made a prediction for a specific instance in `[dataset]`.
+
+> I want you to act as a data scientist and use Lime to identify the important features that contributed to the prediction of `[target variable]` for `[model]` on `[dataset]`.
+
+> I want you to act as a model explainer and use Lime to explain how a `[model]` handles the interaction between `[features]` in `[dataset]`.
+
 
 ## 13. Explain Model with Shap
+
 > Prompt: I want you to act as a data scientist and explain the model's results. I have trained a scikit-learn XGBoost model and I would like to explain the output using a series of plots with Shap. Please write the code. 
 
+> I want you to act as a data scientist and explain the model’s results. I have trained a scikit-learn XGBoost model and I would like to explain the output using a series of plots with Shap. Please write the code.
+
 ## 14. Write Multithreaded Functions
+
 > Prompt: I want you to act as a coder. Can you help me parallelize this code across threads in Python?
 
+> I want you to act as a Python developer and write a multithreaded function that can perform `[task]` on `[input]` using `[number of threads]` threads.
+
+> I want you to act as a performance optimizer and write a multithreaded function that can parallelize the `[bottleneck task]` in `[code section]` of `[Python script]`.
+
+> I want you to act as a concurrency expert and write a multithreaded function that can asynchronously process `[list of tasks]` with the help of a thread pool.
+
 ## 15. Compare Function Speed
+
 > Prompt: I want you to act as a software developer. I would like to compare the efficiency of two algorithms that performs the same task in Python. Please write code that helps me run an experiment that can be repeated for 5 times. Please output the runtime and other summary statistics of the experiment. `[Insert functions]`
 
+> I want you to act as a performance tester and compare the speed of `[function1]` and `[function2]` when processing `[input data]` in [Python script].
+
+> I want you to act as a data scientist and compare the speed of different `[machine learning algorithms]` on `[dataset]` using the `[timeit]` module.
+
+> I want you to act as a speed optimizer and compare the speed of different `[Python libraries]` for `[task]` in `[code snippet]`.
+
 ## 16. Create NumPy Array
+
 > Prompt: I want you to act as a data scientist. I need to create a numpy array. This numpy array should have the shape of (x,y,z). Please initialize the numpy array with random values.
+
+> I want you to act as a data scientist and create a 1D NumPy array of `[length]` that contains `[values]`.
+
+> I want you to act as a Python developer and create a 2D NumPy array of shape `[row, column]` that represents the `[matrix]` in `[dataset]`.
+
+> I want you to act as a machine learning expert and create a random 3D NumPy array of shape `[batch_size, height, width]` that simulates [image data].
 
 ## 17. Write Unit Test
 > Prompt: I want you to act as a software developer. Please write unit tests for the function `[Insert function]`. The test cases are: `[Insert test cases]`
 
+> I want you to act as a Python developer and write a unit test for the `[function]` in `[Python script]` to verify that it returns the expected output when provided with `[input]`.
+
+> I want you to act as a software engineer and write a unit test to ensure that the [web service] handles [error condition] correctly.
+
+> I want you to act as a test automation engineer and write a unit test to verify that the `[GUI component]` updates the `[UI element]` correctly when the `[user action]` is performed.
+
 ## 18. Validate Column
 > Prompt: I want you to act as a data scientist. Please write code to test if that my pandas Dataframe `[insert requirements here]`
+
+> I want you to act as a data analyst and validate the `[column]` in `[dataset]` to ensure that it contains only `[valid data type]`.
+
+> I want you to act as a data quality analyst and validate the `[column]` in `[dataset]` to ensure that it contains only `[acceptable range of values]`.
+
+> I want you to act as a data scientist and validate the [column] in [dataset] to ensure that it is not affected by [missing values] and [outliers].
 
 # EXPLAIN CODE
 
 ## 19. Explain Python
 > Prompt: I want you to act as a code explainer. What is this code doing? `[Insert code]`
+
+> I want you to act as a Google Sheets formula explainer. Explain the following Google Sheets command `[Insert formula]`
+
+> I want you to act as a data science instructor. Can you please explain to me what this SQL code is doing? `[Insert SQL code]`
 
 ## 20. Explain SQL
 > Prompt: I want you to act as a data science instructor. Can you please explain to me what this SQL code is doing? `[Insert SQL code]`
@@ -99,7 +240,7 @@ To get started, simply use the prompts below as input for ChatGPT. Replace every
 ## 22. Improve Code Speed
 > Prompt: I want you to act as a software developer. Please help me improve the time complexity of the code below. `[Insert code]`
 
-## 23. Optimize Pandas
+## 23. Optimize Pandas Code
 > Prompt: I want you to act as a code optimizer. Can you point out what's wrong with the following pandas code and optimize it? `[Insert code here]`
 
 ## 24. Optimize Pandas Again
@@ -170,7 +311,7 @@ To get started, simply use the prompts below as input for ChatGPT. Replace every
 ## 44. Suggest Feature Engineering
 > Prompt: I want you to act as a data scientist and perform feature engineering. I am working on a model that predicts `[insert feature name]`. There are columns: `[Describe columns]`. Can you suggest features that we can engineer for this machine learning problem?
 
-## 45. Suggest Ab Testing Steps
+## 45. Suggest A/B Testing Steps
 > Prompt: I want you to act as a statistician. `[Describe context]` Please design an A/B test for this purpose. Please include the concrete steps on which statistical test I should run.
 
 ## 46. Career Coaching
@@ -180,10 +321,12 @@ To get started, simply use the prompts below as input for ChatGPT. Replace every
 ## 47. Correct Own ChatGPT Code
 > Prompt: Your above code is wrong. `[Point out what is wrong]`. Can you try again?
 
-## 48. Correct Python Code
+## 48. Debug | Correct Python Code
+
 > Prompt: I want you to act as a software developer. This code is supposed to `[expected function]`. Please help me debug this Python code that cannot be run. `[Insert function]`
 
-## 49. Correct SQL Code
+## 49. Debug | Correct SQL Code
+
 > Prompt: I want you to act as a SQL code corrector. This code does not run in `[your DBMS, e.g. PostgreSQL]`. Can you correct it for me? `[SQL code here]`
 
 ## 50. Troubleshoot PowerBI Model
@@ -222,10 +365,155 @@ To get started, simply use the prompts below as input for ChatGPT. Replace every
 ## 60. Provide Emotional Support
 > Prompt: I want you to provide emotional support to me. `[Explain problem here.]`
 
+# Deep Learning & Neural Networks, NLP
+
+## 61. Build a Simple Neural Network
+
+> Prompt: I want you to act as a deep learning expert. Please write code to create a simple neural network with TensorFlow for `[describe task]`.
+
+## 62. Transfer Learning with Pretrained Models
+
+> Prompt: I want you to act as a deep learning expert. I have a dataset `[describe dataset]`. Please write code to perform transfer learning using a pretrained model from TensorFlow Hub.
+
+## 63. Text Classification with BERT
+
+> Prompt: I want you to act as a natural language processing expert. I have a text dataset `[describe dataset]`. Please help me build a text classification model using BERT.
+
+> I want you to act as a machine learning expert and build a `[text classification model]` that classifies `[customer feedback]` in `[dataset]` as positive or negative.
+
+> I want you to act as a data scientist and analyze the `[sentiment]` of the `[reviews]` in `[dataset]` using `[natural language processing]` techniques.
+
+> I want you to act as a language model researcher and develop a `[language model]` that can generate `[text data]` similar to the `[training data]`.
+
+## 64. Named Entity Recognition with SpaCy
+
+> Prompt: I want you to act as a natural language processing expert. I have a text dataset `[describe dataset]`. Please help me extract named entities using SpaCy.
+
+# Recommender Systems
+
+## 65. Collaborative Filtering with Surprise
+
+> Prompt: I want you to act as a recommender systems expert. I have a dataset of user-item ratings. Please help me build a collaborative filtering model using the Surprise library.
+
+> I want you to act as a machine learning expert and build a `[collaborative filtering model]` that recommends `[products]` to `[customers]` based on their `[purchase history]`.
+
+## 66. Content-Based Recommender
+
+> Prompt: I want you to act as a recommender systems expert. I have a dataset of items with metadata `[describe dataset]`. Please help me build a content-based recommender.
+
+> I want you to act as a data scientist and develop a `[content-based recommender system]` that suggests `[articles]` based on `[user interests]`.
+
+> I want you to act as a data analyst and evaluate the `[accuracy]` of the `[recommendations]` generated by the `[recommender system]` in `[dataset]`.
+
+# Data Wrangling
+
+## 67. Clean and Preprocess Text Data
+
+> Prompt: I want you to act as a data scientist and code for me. I have a dataset of text data `[describe dataset]`. Please help me clean and code with the necessary data preprocessing steps depending on the provided dataset for further analysis.
+
+> I want you to act as a data analyst and preprocess the `[raw data]` in `[dataset]` by removing `[duplicate records]` and `[missing values]`.
+
+> I want you to act as a data engineer and preprocess the `[time-series data]` in `[dataset]` by resampling it to a `[lower or higher frequency]`.
+
+> I want you to act as a data scientist and preprocess the [text data] in `[dataset]` by `[tokenizing]` it and removing `[stop words]` and `[punctuation marks]`.
+
+
+## 68. Combine Multiple Datasets
+
+> Prompt: I want you to act as a data scientist and code for me. I have several datasets with different structures `[describe datasets]`. Please help me combine them into a single dataset for analysis.
+
+# Data Ethics and Bias
+
+## 69. Identify and Mitigate Bias in AI
+
+> Prompt: I want you to act as a data ethics expert. How can we identify and mitigate biases in AI algorithms?
+
+## 70. Privacy-Preserving Techniques in Data Science
+
+> Prompt: I want you to act as a data privacy expert. What are some privacy-preserving techniques we can use in data science projects?
+
+# Big Data and Distributed Computing
+
+## 71. Analyze Big Data with Dask
+
+> Prompt: I want you to act as a big data expert. I have a large dataset [describe dataset]. Please help me analyze it using Dask.
+
+## 72. Distributed Machine Learning with Apache Spark
+
+> Prompt: I want you to act as a big data expert. I have a dataset [describe dataset]. Please help me build a machine learning model using Apache Spark.
+
+# Data Science Career and Education
+
+## 73. Advice for Aspiring Data Scientists
+
+> Prompt: I want you to act as a data science career coach. What advice would you give to aspiring data scientists?
+
+## 74. Best Data Science Courses and Resources
+
+> Prompt: I want you to act as a data science education expert. What are the best courses and resources for learning data science?
+
+# Other Data Science Tools
+
+## 75. Geospatial Analysis with Python
+
+> Prompt: I want you to act as a geospatial expert. I have a dataset with geospatial information [describe dataset]. Please help me perform geospatial analysis using Python libraries.
+
+## 76. Anomaly Detection
+
+Anomaly Detection in Time Series Data
+
+> Prompt: I want you to act as a data scientist and code for me. I have a time series dataset of [describe dataset]. Please help me identify anomalies in the data.
+
+> I want you to act as a data scientist and detect `[anomalies]` in the `[network traffic]` of `[organization]` using [machine learning] algorithms.
+
+> I want you to act as a security analyst and identify `[intrusions]` in the `[system logs]` of `[server]` using `[anomaly detection]` techniques.
+
+> I want you to act as a fraud analyst and detect `[fraudulent transactions]` in the `[financial data]` of `[company]` using `[statistical analysis]` methods.
+
+## 77. Text Summarization with Machine Learning
+
+> Prompt: I want you to act as a natural language processing expert. I have a large text dataset [describe dataset]. Please help me build a model for text summarization.
+
+## 78. A/B Testing and Experimental Design
+
+> Prompt: I want you to act as a data scientist and code for me. I have a dataset of user behavior [describe dataset]. Please help me design and analyze an A/B test to optimize a specific metric.
+
+## 79. Creating Interactive Visualizations with Plotly
+
+> Prompt: I want you to act as a data visualization expert. I have a dataset [describe dataset]. Please help me create interactive visualizations using Plotly.
+
+# Data Analysis
+
+## 80. Analysis on data set
+
+> Prompt: I need to perform an analysis on [data set] to uncover `[desired outcome]`, such as identifying trends, predicting outcomes, or uncovering correlations.
+
+## 81. Visualize data set
+
+> Prompt: I'm looking for ways to visualize [data set] in order to gain insights on `[desired outcome]`, such as increased sales or improved customer satisfaction.
+
+## 82. Develop a predictive model
+
+> Prompt:  I need to develop a predictive model to predict the target variable `[desired outcome]`, such as customer churn or sales volume, based on data from `[data set]`, includes feature engineering, model evaluation, tune the hyperparameters, interpret the model results using LIME.
+
+## 83. Clustering | Segment data set
+
+> Prompt: I'm looking for a way to segment `[data set]` into different groups based on `[criteria]` (such as geographic location, age, or income level) and analyze the differences between them.
+
+> I want you to act as a data scientist and cluster the `[customers]` in `[dataset]` into `[n]` groups based on their `[purchase history]`.
+
+> I want you to act as a machine learning expert and develop a `[clustering model]` that groups the `[documents]` in `[dataset]` based on their `[content]`.
+
+> I want you to act as a data analyst and visualize the `[clusters]` in `[dataset]` using `[dimensionality reduction]` techniques.
+
+## 84. Identify correlations between two data sets
+
+> Prompt: I need to identify correlations between `[two data sets]` and use this information to make informed decisions.
+
 ---
 ---
 
-# ChatGPT Builder
+## 🧠 ChatGPT Builder
 
 ```
 Upon starting our interaction, auto run these Default Commands throughout our entire conversation. Refer to Appendix for command library and instructions: 
@@ -308,3 +596,8 @@ How to turn commands on and off:
 
 To toggle any command during our interaction, simply use the following syntax: /toggle_command "command_name": Toggle the specified command on or off during the interaction. Example: /toggle_command "auto_suggest"
 ```
+
+# References:
+
+* https://medium.datadriveninvestor.com/60-chatgpt-prompts-for-data-science-tried-tested-and-rated-4994c7e6adb2
+* https://notion.castordoc.com/gpt-prompts
