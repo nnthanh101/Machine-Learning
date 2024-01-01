@@ -22,7 +22,9 @@
 
 ## 3. Projects 👨‍💻
 
-* [ ] 
+* [x] Document as Code
+  * `npx create-docusaurus@latest docs classic --typescript`
+  * `yarn add @docusaurus/theme-search-algolia tailwindcss postcss autoprefixer`
 
 ---
 
@@ -114,3 +116,4 @@
   * [ ] Support vector machines (SVM)
   * [x] K-means clustering
   * [x] Neural networks
+
