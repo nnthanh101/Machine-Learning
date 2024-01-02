@@ -2,7 +2,9 @@
 sidebar_position: 3
 ---
 
-# Databases & SQL for Data Science
+# DB & SQL for Data Science
+
+> Databases & SQL for Data Science
 
 Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
 

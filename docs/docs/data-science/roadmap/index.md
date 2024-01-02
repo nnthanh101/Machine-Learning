@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# Data Science & Machine Learning ROADMAP
+# 🧑‍🎓 Roadmap
 
 > 🚀 Data Science & Machine Learning ROADMAP for aspiring Data Scientists and ML Enthusiasts! 🌟
 
-![Data Science & Machine Learning ROADMAP](./data-science/Data-Science-Machine-Learning-ROADMAP.gif)
+![Data Science & Machine Learning ROADMAP](/img/data-science/Data-Science-Machine-Learning-ROADMAP.gif)
 
-## 1️⃣ Mathematics & Statistics
+## 1️⃣ [Mathematics & Statistics](./mathematics-statistics.md)
 
 > ✨ From descriptive statistics to calculus, these resources will provide a solid foundation in the core principles that drive data science. 🔢
 
@@ -18,7 +18,7 @@ sidebar_position: 1
 * [1.4. Linear Algebra](https://github.com/nnthanh101/Machine-Learning/blob/main/references/cheat-sheets/1.4.Linear-Algebra.pdf)
 * [1.5. Calculus](https://github.com/nnthanh101/Machine-Learning/blob/main/references/cheat-sheets/1.5.Calculus.pdf) 
 
-## 2️⃣ Python | R for Data Science 
+## 2️⃣ [Python | R for Data Science](./python-r.md)
 
 > 🐍 Explore the coding aspect with Python and R cheat sheets for brushing up on your programming skills. 📈
 

@@ -1,12 +1,13 @@
 ---
-sidebar_position: 6
+sidebar_position: 1
 ---
 
-# ML Model Development
+# ML Model Development using CRISP-DM methodology
 
 ## 1. Model Selection
 
 ## 2. Model Evaluation
+
 
 
 You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
