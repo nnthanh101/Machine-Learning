@@ -50,6 +50,8 @@
 ```
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
 ├── README.md          🤝 Explain your project and its structure for better collaboration.
+├── config/
+│   └── logging.config.ini
 ├── data               🔍 Where all your raw and processed data files are stored.
 │   ├── external       <- Data from third-party sources.
 │   ├── interim        <- Intermediate data that has been transformed.
@@ -60,9 +62,11 @@
 │
 ├── models             🧠 Store your trained and serialized models for easy access and versioning.
 │
-├── notebooks          💻 Jupyter notebooks or other interactive files for exploration and visualization.
-│                         Naming convention is a number (for ordering), the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-analytics-initial-data-exploration`.
+├── notebooks          💻 Jupyter notebooks for exploration and visualization.
+│   ├── data_exploration.ipynb
+│   ├── data_preprocessing.ipynb
+│   ├── model_training.ipynb
+│   └── model_evaluation.ipynb
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for analytics
 │                         and configuration for tools like black
@@ -77,7 +81,22 @@
 ├── setup.cfg          <- Configuration file for flake8
 │
 ├── src                💾 Source code for data processing, feature engineering, and model training.
-│
+│   ├── data/
+│   │   └── data_preprocessing.py
+│   ├── features/
+│   │   └── feature_engineering.py
+│   ├── models/
+│   │   └── model.py
+│   └── utils/
+│       └── helper_functions.py
+├── tests/
+│   ├── test_data_preprocessing.py
+│   ├── test_feature_engineering.py
+│   └── test_model.py
+├── setup.py
+├── Dockerfile
+├── docker-compose.yml
+├── .gitignore
 └── analytics          🧩 Source code for use in this project.
     │
     ├── __init__.py    <- Makes analytics a Python module
