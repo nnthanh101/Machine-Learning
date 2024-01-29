@@ -58,7 +58,7 @@
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, unprocessed, immutable data dump.
 │
-├── docs               📓 A default mkdocs project; see mkdocs.org for details
+├── docs               📓 A default docusaurus | mkdocs project; see docusaurus.io | mkdocs.org for details
 │
 ├── models             🧠 Store your trained and serialized models for easy access and versioning.
 │
@@ -93,7 +93,7 @@
 │   ├── test_data_preprocessing.py
 │   ├── test_feature_engineering.py
 │   └── test_model.py
-├── setup.py
+├── setup.py           🛠 A Python script to make the project installable.
 ├── Dockerfile
 ├── docker-compose.yml
 ├── .gitignore
@@ -111,7 +111,7 @@
     │   ├── predict_model.py
     │   └── train_model.py
     │
-    └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    └── visualization  <- Scripts to create exploratory and results-oriented visualizations
         └── visualize.py
 ```
 
