@@ -2,7 +2,8 @@
 
 ##### New Features
 
-* [x]  
+* [x] 1st-Init Cookiecutter Data Science & Machine Learning
+* [x] 1st-Init Project Documentation
 
 ##### New Documentation
 
