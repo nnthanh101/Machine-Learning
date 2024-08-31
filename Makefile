@@ -2,8 +2,8 @@
 # GLOBALS                                                                       #
 #################################################################################
 
-PROJECT_NAME = Machine-Learning
-PYTHON_VERSION = 3.11
+PROJECT_NAME = data-science
+PYTHON_VERSION = 3.12
 PYTHON_INTERPRETER = python
 
 #################################################################################
@@ -14,7 +14,7 @@ PYTHON_INTERPRETER = python
 ## Install Python Dependencies
 .PHONY: requirements
 requirements:
-	$(PYTHON_INTERPRETER) -m pip install -U pip setuptools wheel
+	$(PYTHON_INTERPRETER) -m pip install -U pip
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
 	
 
@@ -29,28 +29,28 @@ clean:
 ## Lint using flake8 and black (use `make format` to do formatting)
 .PHONY: lint
 lint:
-	flake8 analytics
-	black --check --config pyproject.toml analytics
-
+	flake8 data_science
+	isort --check --diff --profile black data_science
+	black --check --config pyproject.toml data_science
 
 ## Format source code with black
 .PHONY: format
 format:
-	black --config pyproject.toml analytics
+	black --config pyproject.toml data_science
 
 
 ## Download Data from storage system
 .PHONY: sync_data_down
 sync_data_down:
-	aws s3 sync s3://analytics101/data/\
+	aws s3 sync s3://analytics101/data/ \
 		data/ 
 	
 
 ## Upload Data to storage system
 .PHONY: sync_data_up
 sync_data_up:
-	aws s3 sync s3://analytics101/data/ data/\
-		 --profile $(PROFILE)
+	aws s3 sync data/ \
+		s3://analytics101/data 
 	
 
 
@@ -72,7 +72,7 @@ create_environment:
 ## Make Dataset
 .PHONY: data
 data: requirements
-	$(PYTHON_INTERPRETER) analytics/data/make_dataset.py
+	$(PYTHON_INTERPRETER) data_science/dataset.py
 
 
 #################################################################################
@@ -82,15 +82,13 @@ data: requirements
 .DEFAULT_GOAL := help
 
 define PRINT_HELP_PYSCRIPT
-import re, sys
-
-for line in sys.stdin:
-	match = re.match(r'^([a-zA-Z_-]+):.*?## (.*)$$', line)
-	if match:
-		target, help = match.groups()
-		print("%-20s %s" % (target, help))
+import re, sys; \
+lines = '\n'.join([line for line in sys.stdin]); \
+matches = re.findall(r'\n## (.*)\n[\s\S]+?\n([a-zA-Z_-]+):', lines); \
+print('Available rules:\n'); \
+print('\n'.join(['{:25}{}'.format(*reversed(match)) for match in matches]))
 endef
 export PRINT_HELP_PYSCRIPT
 
 help:
-	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
+	@$(PYTHON_INTERPRETER) -c "${PRINT_HELP_PYSCRIPT}" < $(MAKEFILE_LIST)
